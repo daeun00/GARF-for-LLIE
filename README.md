@@ -1,1 +1,1 @@
-# GARI-for-LLIE
+# Gate-aware recurrent framework for progressive low-light image enhancement
