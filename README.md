@@ -6,5 +6,5 @@ This study proposes a gate-aware recurrent framework for low-light image enhance
 
 ## Results
 * **Qualitative Comparison**<br/>
-<img src="/figures/qualitative_comparison.png" width="70%" height="70%" title="Qualitative Comparison"></img><br/>
+<img src="/figures/qualitative_comparison.png" width="90%" height="90%" title="Qualitative Comparison"></img><br/>
 <br/>
