@@ -17,7 +17,7 @@ low-light image enhancement applications.  :book: : [[Paper]](https://ieeexplore
 
 ## Architecture
 * **Overall Architecture**<br/>
-<img src="/figures/overall architecture.jpg" width="80%" height="80%" title="Qualitative Comparison"></img><br/>
+<img src="/figures/overall architecture.jpg" width="90%" height="90%" title="Qualitative Comparison"></img><br/>
 <br/>
 
 ## Requirements
