@@ -41,6 +41,7 @@ python test.py --modelfile models/LIENet.pth
 
 ## Results
 * You can check example results about *DICM*, *Fusion*, *LIME*, *LOL*, *MEF* datasets in each folder.<br/>
+* **Qualitative Comparison**<br/>
 <img src="/figures/qualitative_comparison.png" width="90%" height="90%" title="Qualitative Comparison"></img><br/>
 <br/>
 
