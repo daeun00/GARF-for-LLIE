@@ -1,4 +1,4 @@
-# Gate-aware recurrent framework for progressive low-light image enhancement
+# Gate-Aware Recurrent Framework for Progressive Low-Light Image Enhancement
 
 ## Abstract
 This study proposes a gate-aware recurrent framework for low-light image enhancement.
@@ -13,10 +13,12 @@ In addition, an auxiliary refinement step ensures sharper details and more natur
 Extensive experiments, including thorough ablation studies, validate the contributions of each design component.
 The results demonstrate that the proposed network consistently achieves state-of-the-art performance
 on both reference-based and no-reference datasets, providing a lightweight yet effective solution for practical
-low-light image enhancement applications.
+low-light image enhancement applications.  :book: : [[Paper]](https://ieeexplore.ieee.org/document/11527169)
 
 ## Architecture
 * **Overall Architecture**<br/>
+<img src="/figures/overall architecture.jpg" width="80%" height="80%" title="Qualitative Comparison"></img><br/>
+<br/>
 
 ## Requirements
 * Python 3.8
@@ -29,24 +31,25 @@ pip install pillow, opencv-python, scikit-image, sacred, pymongo
 ## Test
 * Put test images under *./test_img* folder.
 * Put the trained model under  *./models* folder.
+<br/> - You can use best pretrained model file : *./models/LIENet.pth*
 * Run test.py
 ```
-python test.py --modelfile models/FCANet.pth
+python test.py --modelfile models/LIENet.pth
 ```
 * The test results will be saved to the folder: ./output.
 <br/>
 
 ## Results
-* You can check example results about *DICM*, *Fusion*, *LIME*, *LOL*, *MEF*, *VV* datasets in each folder.<br/>
+* You can check example results about *DICM*, *Fusion*, *LIME*, *LOL*, *MEF* datasets in each folder.<br/>
 <img src="/figures/qualitative_comparison.png" width="90%" height="90%" title="Qualitative Comparison"></img><br/>
 <br/>
 
 ## Citation Information
 ```
 @article{GARF2026lee,
-  title={Gate-aware recurrent framework for progressive low-light image enhancement},
+  title={Gate-Aware Recurrent Framework for Progressive Low-Light Image Enhancement},
   author={Lee Da Eun, Jun Young Park, and Il Kyu Eom},
-  journal={IEEE Acess},
+  journal={IEEE Access},
   year={2026},
 }
 ```
